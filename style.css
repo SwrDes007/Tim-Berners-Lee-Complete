@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    position: absolute;
+    height: 800px;
+    color: antiquewhite;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#42f5a1 20%, #42f5d4 80%);
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#name {
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.menu {
+    position:fixed;
+    background: white;
+    width: 100%;
+    top:0px;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: darkcyan;
+    font-size: 25px;
+}
+
+#Vids {
+    text-align: center;
+    background-color: darkseagreen;
+    padding: 20px;
+}
+
+.line {
+    width: 80px;
+    height: 6px;
+    background-color: darkslategray;
+    margin: 8px auto;
+
+}
+
+#Work {
+
+
+    text-align: center;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+#Writing{
+    text-align: center;
+    background-color:greenyellow;
+    padding: 20px;
+}
+
+#Contact iframe{
+    width: 100%;
+    
+}
+
+#Contact{
+    text-align: center;
+}
